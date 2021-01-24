@@ -5,8 +5,8 @@ jobs:
   hmm:
     steps:
     - run:
-      name: test
-      command: echo 123123123
+        name: test
+        command: echo 123123123
 
 workflows:
   # Name the workflow "welcome"
